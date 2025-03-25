@@ -5,7 +5,7 @@ async function createConnection() {
         const connection = await mysql.createConnection({
             host: 'hostelmanagementserver.mysql.database.azure.com',
             user: 'shaan',
-            password: 'DBMSproject123',
+            password: '',
             database: 'ecomm',
             ssl: { rejectUnauthorized: true }
         });
